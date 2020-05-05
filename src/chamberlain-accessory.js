@@ -16,6 +16,9 @@ module.exports = class {
     this.apiToHap = {
       'open': CurrentDoorState.OPEN,
       'closed': CurrentDoorState.CLOSED,
+      'stopped': CurrentDoorState.STOPPED,
+      'opening': CurrentDoorState.OPENING,
+      'closing': CurrentDoorState.CLOSING,
     };
 
     this.hapToApi = {
